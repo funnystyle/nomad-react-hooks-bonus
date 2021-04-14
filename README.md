@@ -1,6 +1,6 @@
 # React Hooks
 
-from https://nomadcoders.co/ react for beginners Lecture #9 BONUS: REACT HOOKS
+React for Beginners from https://nomadcoders.co/
 
 ## #9 BONUS: REACT HOOKS
 
