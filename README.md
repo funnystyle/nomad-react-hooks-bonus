@@ -2,7 +2,7 @@
 
 React for Beginners from https://nomadcoders.co/
 
-## #9 BONUS: REACT HOOKS
+## #9 BONUS: REACT HOOKS (113:54)
 
 - #9.0 Introduction (01:58)
 - #9.1 Context and State Management (08:59)
