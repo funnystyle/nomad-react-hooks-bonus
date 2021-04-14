@@ -4,11 +4,8 @@ const LangContext = React.createContext();
 
 const Lang = ({ defaultLang, children, translations }) => {
   const [lang, setLang] = useState(defaultLang);
-  const hyperTranslate = (text) => {
-    if (lang === defaultLang) {
-      return text;
-    }
-  };
+  const hyperTranslate = (text) =>
+    lang === defaultLang ? text : translations[lang][text];
   return (
     <LangContext.Provider value={{ setLang, t: hyperTranslate }}>
       {children}
